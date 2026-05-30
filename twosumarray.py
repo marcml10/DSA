@@ -11,3 +11,5 @@ while left < right:
     elif numbers[left] + numbers[right] == target:
         print(left, right)
         break
+    else:
+        print("match not found")
