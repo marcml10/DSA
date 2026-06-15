@@ -7,8 +7,3 @@ for num in numbers:
     if num<small:
         small=num
 print(big,small)
-
-
-
-
-
