@@ -1,9 +1,0 @@
-def twosum(numbers, target):
-    for i in range(len(numbers)):
-      for j in range(i+1,len(numbers)):
-        if numbers[i] + numbers [j] == target:
-          return (i,j)
-
-numbers = [2, 7, 11, 15]
-target = 9
-print(twosum(numbers, target))
