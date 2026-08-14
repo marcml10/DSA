@@ -10,7 +10,7 @@ def anagram(t:str , s:str) -> bool:
         if element not in census or census[element] == 0:
             return False
         census[element] -= 1
-        return True
+    return True
 
 result = anagram("hitmo", "mohit")
 print(result)
